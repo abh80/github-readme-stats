@@ -9,15 +9,14 @@ if (!process.env.token) {
   console.log("Please set your twitter token in .env");
   process.exit(1);
 }
-if (!process.env.username) {
+if (!process.env.twitter_username) {
   console.log("Please set your twitter username in .env");
   process.exit(1);
 }
-
 axios
   .get(
     "https://api.twitter.com/2/users/by/username/" +
-      process.env.username +
+      process.env.twitter_username +
       "?user.fields=public_metrics,profile_image_url,description",
     {
       headers: {
@@ -26,11 +25,10 @@ axios
     }
   )
   .then(({ data }) => {
-    tempData = data;
-    drawImage().then((img) => fs.writeFileSync("img.png", img));
+    drawImage(data).then((img) => fs.writeFileSync("./Twitter_Stats.png", img));
   });
 
-async function drawImage() {
+async function drawImage(data) {
   let canvas = Canvas.createCanvas(800, 400);
   let ctx = canvas.getContext("2d");
   ctx.fillStyle = themes.twitter_default.border;
@@ -45,7 +43,7 @@ async function drawImage() {
   ctx.clip();
   ctx.drawImage(
     await Canvas.loadImage(
-      tempData.data.profile_image_url.replace("_normal", "")
+      data.data.profile_image_url.replace("_normal", "")
     ),
     20,
     100,
@@ -68,33 +66,33 @@ async function drawImage() {
   ctx.fillText("Twitter Stats", 70, 40);
 
   ctx.font = "bold 30px Arial";
-  ctx.fillText(tempData.data.name, 240, 150);
+  ctx.fillText(data.data.name, 240, 150);
 
   ctx.font = "semibold 20px Arial";
   ctx.fillStyle = themes.twitter_default.secondary_text;
-  ctx.fillText("@" + tempData.data.username, 240, 180);
+  ctx.fillText("@" + data.data.username, 240, 180);
 
   ctx.font = "bold 20px Arial";
   ctx.fillStyle = themes.twitter_default.text;
-  ctx.fillText(tempData.data.public_metrics.followers_count, 240, 300);
-  ctx.measureText(tempData.data.public_metrics.followers_count).width;
+  ctx.fillText(data.data.public_metrics.followers_count, 240, 300);
+  ctx.measureText(data.data.public_metrics.followers_count).width;
   ctx.font = "condensed 20px Arial";
   ctx.fillStyle = themes.twitter_default.secondary_text;
   ctx.fillText(
     "Followers",
     240 +
       5 +
-      ctx.measureText(tempData.data.public_metrics.followers_count).width,
+      ctx.measureText(data.data.public_metrics.followers_count).width,
     300
   );
   ctx.font = "bold 20px Arial";
   ctx.fillStyle = themes.twitter_default.text;
   ctx.fillText(
-    tempData.data.public_metrics.following_count,
+    data.data.public_metrics.following_count,
     240 +
       15 +
       ctx.measureText(
-        tempData.data.public_metrics.followers_count + "Following"
+        data.data.public_metrics.followers_count + "Following"
       ).width,
     300
   );
@@ -105,14 +103,14 @@ async function drawImage() {
     240 +
       15 +
       ctx.measureText(
-        tempData.data.public_metrics.followers_count + "Following"
+        data.data.public_metrics.followers_count + "Following"
       ).width +
       15 +
-      ctx.measureText(tempData.data.public_metrics.following_count).width,
+      ctx.measureText(data.data.public_metrics.following_count).width,
     300
   );
   // break the description into 3 lines and exclude the other linees
-  let description = tempData.data.description;
+  let description = data.data.description;
   let lines = description.split("\n");
   lines = lines.filter((line) => line.trim());
   if (lines.length == 1) {
