@@ -1,0 +1,14 @@
+{
+  "name": "github-readme-stats",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "Abh80",
+
+  "dependencies": {
+    "axios": "^0.25.0",
+    "canvas": "^2.9.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0"
+  }
+}

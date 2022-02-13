@@ -1,0 +1,9 @@
+{
+    "twitter_default": {
+        "border": "#1DA1F2",
+        "background": "#000",
+        "text": "#fff",
+        "secondary_text": "#ffffff80",
+        "logo-file": "/twitter-logo/Twitter logo/PNG/2021 Twitter logo - white.png"
+    }
+}
