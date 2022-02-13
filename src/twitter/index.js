@@ -1,9 +1,7 @@
 const axios = require("axios");
 require("dotenv").config();
-const Canvas = require("canvas");
 const fs = require("fs");
 const themes = require("./themes.json");
-const Util = require("../Util");
 
 if (!process.env.token) {
   console.log("Please set your twitter token in .env");
@@ -13,103 +11,57 @@ if (!process.env.twitter_username) {
   console.log("Please set your twitter username in .env");
   process.exit(1);
 }
-axios
-  .get(
-    "https://api.twitter.com/2/users/by/username/" +
-      process.env.twitter_username +
-      "?user.fields=public_metrics,profile_image_url,description",
-    {
-      headers: {
-        Authorization: `Bearer ${process.env.token}`,
-      },
-    }
-  )
-  .then(({ data }) => {
-    drawImage(data).then((img) => fs.writeFileSync("./Twitter_Stats.png", img));
-  });
+// axios
+//   .get(
+//     "https://api.twitter.com/2/users/by/username/" +
+//       process.env.twitter_username +
+//       "?user.fields=public_metrics,profile_image_url,description",
+//     {
+//       headers: {
+//         Authorization: `Bearer ${process.env.token}`,
+//       },
+//     }
+//   )
+//   .then(({ data }) => {
+//     console.log(data)
+//     drawImage(data).then((img) => fs.writeFileSync("./Twitter_Stats.svg", img));
+//   });
+let theme = themes.twitter_default;
 
+let svg = `<svg width="600" height="300" xmlns="http://www.w3.org/2000/svg">
+<style>
+svg {
+  background-color: ${theme.background};
+  border-radius:10px;
+  border: 4px solid ${theme.border};
+}
+</style>
+<clipPath id="imageH">
+    <circle cx="95" cy="150" r="75" />
+  </clipPath>
+<image x="25" y="10" width="30" height="30" href="${theme["logo-file"]}"></image>
+  <text x="65" y="30" fill="#fff" style="font-size:18px;font-family:Arial;font-weight:bold">Twitter Stats</text>
+`;
+drawImage({
+  data: {
+    public_metrics: {
+      followers_count: 18,
+      following_count: 169,
+      tweet_count: 214,
+      listed_count: 0,
+    },
+    description:
+      "Music lover and learning programming.\n" +
+      "\n" +
+      "Interested in learning about NEOs and SETI.",
+    profile_image_url:
+      "https://pbs.twimg.com/profile_images/1492808960176717824/TYZXt4ST.jpg",
+    name: "Stars Tracker",
+    username: "TrackerStars",
+    id: "1363710222913560577",
+  },
+}).then((v) => fs.writeFileSync("test.svg", v));
 async function drawImage(data) {
-  let canvas = Canvas.createCanvas(800, 400);
-  let ctx = canvas.getContext("2d");
-  ctx.fillStyle = themes.twitter_default.border;
-  Util.roundRect(ctx, 0, 0, 800, 400, 10, true, false);
-
-  ctx.fillStyle = themes.twitter_default.background;
-  Util.roundRect(ctx, 5, 5, 790, 390, 10, true, false);
-  // draw circlular profile image
-  ctx.beginPath();
-  ctx.arc(120, 200, 100, 0, Math.PI * 2, true);
-  ctx.save();
-  ctx.clip();
-  ctx.drawImage(
-    await Canvas.loadImage(
-      data.data.profile_image_url.replace("_normal", "")
-    ),
-    20,
-    100,
-    200,
-    200
-  );
-  ctx.closePath();
-  ctx.restore();
-  ctx.drawImage(
-    await Canvas.loadImage(
-      fs.readFileSync(__dirname + themes.twitter_default["logo-file"])
-    ),
-    30,
-    20,
-    30,
-    25
-  );
-  ctx.fillStyle = themes.twitter_default.text;
-  ctx.font = "semibold 20px Arial";
-  ctx.fillText("Twitter Stats", 70, 40);
-
-  ctx.font = "bold 30px Arial";
-  ctx.fillText(data.data.name, 240, 150);
-
-  ctx.font = "semibold 20px Arial";
-  ctx.fillStyle = themes.twitter_default.secondary_text;
-  ctx.fillText("@" + data.data.username, 240, 180);
-
-  ctx.font = "bold 20px Arial";
-  ctx.fillStyle = themes.twitter_default.text;
-  ctx.fillText(data.data.public_metrics.followers_count, 240, 300);
-  ctx.measureText(data.data.public_metrics.followers_count).width;
-  ctx.font = "condensed 20px Arial";
-  ctx.fillStyle = themes.twitter_default.secondary_text;
-  ctx.fillText(
-    "Followers",
-    240 +
-      5 +
-      ctx.measureText(data.data.public_metrics.followers_count).width,
-    300
-  );
-  ctx.font = "bold 20px Arial";
-  ctx.fillStyle = themes.twitter_default.text;
-  ctx.fillText(
-    data.data.public_metrics.following_count,
-    240 +
-      15 +
-      ctx.measureText(
-        data.data.public_metrics.followers_count + "Following"
-      ).width,
-    300
-  );
-  ctx.font = "condensed 20px Arial";
-  ctx.fillStyle = themes.twitter_default.secondary_text;
-  ctx.fillText(
-    "Following",
-    240 +
-      15 +
-      ctx.measureText(
-        data.data.public_metrics.followers_count + "Following"
-      ).width +
-      15 +
-      ctx.measureText(data.data.public_metrics.following_count).width,
-    300
-  );
-  // break the description into 3 lines and exclude the other linees
   let description = data.data.description;
   let lines = description.split("\n");
   lines = lines.filter((line) => line.trim());
@@ -129,11 +81,8 @@ async function drawImage(data) {
     lines[2] = lines[2] + "...";
   }
   lines = lines.slice(0, 3);
-  lines.forEach((line, i) => {
-    ctx.font = "18px Arial";
-    ctx.fillStyle = themes.twitter_default.text;
-    ctx.fillText(line, 245, 210 + i * 20);
-  });
-  const img = canvas.toBuffer();
-  return img;
+  svg += data.data.username;
+  svg += `<image clip-path="url(#imageH)" x="20" y="75" width="150" height="150" href="${data.data.profile_image_url}"></image>`
+  svg += "</svg>";
+  return svg;
 }
