@@ -2,4 +2,4 @@
 Still work in progress
 
 # Preview
-![k](./preview.png)
+![k](./preview.svg)
