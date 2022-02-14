@@ -1,0 +1,10 @@
+{
+    "twitter_default": {
+        "border": "#1DA1F2",
+        "background": "#000",
+        "header_text": "#fff",
+        "text": "#fff",
+        "secondary_text": "#ffffff80",
+        "logo-file": "https://raw.githubusercontent.com/abh80/github-readme-stats/master/src/twitter/twitter-logo/Twitter%20logo/PNG/2021%20Twitter%20logo%20-%20white.png"
+    }
+}
