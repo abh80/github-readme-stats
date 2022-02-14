@@ -2,4 +2,4 @@
 Still work in progress
 
 # Preview
-![k](./preview.svg)
+<img src="https://raw.githubusercontent.com/abh80/github-readme-stats/master/src/twitter/preview.svg"/>
