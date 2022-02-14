@@ -1,7 +1,8 @@
 const axios = require("axios");
 require("dotenv").config();
 const fs = require("fs");
-const themes = require("./themes.json");
+const themes = require("../themes.json");
+const SVG = require("../Utils/SVG");
 
 if (!process.env.token) {
   console.log("Please set your twitter token in .env");
@@ -35,65 +36,89 @@ if (process.env.twitter_theme) {
   }
 }
 
-let svg = `<svg width="600" height="300" xmlns="http://www.w3.org/2000/svg">
-<style>
-@keyframes fadeIn {
-  from {
-    opacity: 0;
+let svg = new SVG(600, 300);
+let style = `
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
   }
-  to {
-    opacity: 1;
+  @keyframes imgIn {
+    from {
+      r: 0;
+    }
+    to {
+      r: 75;
+    }
   }
-}
-@keyframes imgIn {
-  from {
-    r: 0;
+  .default-fade {
+    animation: fadeIn 2s;
   }
-  to {
-    r: 75;
+  #profile-pic {
+    animation: imgIn 2s;
   }
-}
-.default-fade {
-  animation: fadeIn 2s;
-}
-#profile-pic {
-  animation: imgIn 2s;
-}
-@keyframes introAnim {
-  0% {
-    x:0;
-    width: 0;
+  @keyframes introAnim {
+    0% {
+      x:0;
+      width: 0;
+    }
+    50% {
+      x:0;
+      width: 600;
+    }
+    100% {
+      x: 600;
+    }
   }
-  50% {
-    x:0;
-    width: 600;
-  }
-  100% {
-    x: 600;
-  }
-}
-#intro {
-  animation: introAnim 1s;
-}
-</style>
-<rect x="0.5" y="0.5" width="99.8%" height="99.7%" rx="4.5" fill="${theme.background}" stroke="${theme.border}"></rect>
-<clipPath id="imageH">
-    <circle cx="95" cy="150" r="75" id="profile-pic"/>
-  </clipPath>
-  <text x="65" y="30" fill="#fff" style="font-size:18px;font-family:Arial;font-weight:bold">Twitter Stats</text>
-`;
+  #intro {
+    animation: introAnim 1s;
+  }`;
+svg.appendStyle(style);
 
 async function drawImage(data) {
-  const profilePic = await axios.get(data.data.profile_image_url.replace("_normal",""), {
-    responseType: "arraybuffer",
-  });
-  const profilePic64 = Buffer.from(profilePic.data, "binary").toString("base64");
+  const profilePic = await axios.get(
+    data.data.profile_image_url.replace("_normal", ""),
+    {
+      responseType: "arraybuffer",
+    }
+  );
+  const profilePic64 = Buffer.from(profilePic.data, "binary").toString(
+    "base64"
+  );
 
   const logoPic = await axios.get(theme["logo-file"], {
     responseType: "arraybuffer",
   });
   const logoPic64 = Buffer.from(logoPic.data, "binary").toString("base64");
-  svg+= `<image x="25" y="10" width="30" height="30" href="data:image/png;base64,${logoPic64}"></image>`
+  svg.append(
+    svg
+      .createElement("rect", 0.5, 0.5, "99.8%", "99.7%")
+      .addAttr("rx", 4.5)
+      .addAttr("fill", theme.background)
+      .addAttr("stroke", theme.border)
+  );
+
+  svg.append(
+    svg
+      .createElement("clipPath")
+      .addAttr("id", "imageH")
+      .append(
+        svg
+          .createElement("circle")
+          .addAttr("id", "profile-pic")
+          .addAttr("r", "75")
+          .addAttr("cx", "95")
+          .addAttr("cy", "150")
+      )
+  );
+  svg.append(
+    svg
+      .createElement("image", 25, 10, 30, 30)
+      .addAttr("href", `data:image/png;base64,${logoPic64}`)
+  );
   let description = data.data.description;
   let lines = description.split("\n");
   lines = lines.filter((line) => line.trim());
@@ -113,41 +138,101 @@ async function drawImage(data) {
     lines[2] = lines[2] + "...";
   }
   lines = lines.slice(0, 3);
-  svg += data.data.username;
-  svg += `<image crossorigin="anonymous" clip-path="url(#imageH)" x="20" y="75" width="150" height="150" href="data:image/png;base64,${profilePic64}"></image>`;
-  svg += `<text class="default-fade" x="175" y="105" fill="#fff" style="font-size:25px;font-family:Arial;font-weight:bold">${data.data.name}</text>`;
-  svg +=
-    "<text class='default-fade' x='178' y='130' fill='#ffffff80' style='font-size:20px;font-family:Arial;font-weight:bold'>@" +
-    data.data.username +
-    "</text>";
+
+  svg.append(
+    svg
+      .createElement("image", 20, 75, 150, 150)
+      .addAttr("href", `data:image/png;base64,${profilePic64}`)
+      .addAttr("clip-path", "url(#imageH)")
+  );
+  svg.append(
+    svg
+      .createElement("text", 175, 105)
+      .addAttr("fill", theme.header_text)
+      .addAttr("class", "default-fade")
+      .addAttr("style", "font-size:25px;font-family:Arial;font-weight:bold")
+      .append(data.data.name)
+  );
   lines.forEach((line, i) => {
-    svg += `<text x="178" y="${
-      i * 20 + 160
-    }" fill="#fff" class="default-fade" style="font-size:18px;font-family:Arial;font-weight:500">${line}</text>`;
+    svg.append(
+      svg
+        .createElement("text", 178, 160 + i * 20)
+        .addAttr("fill", theme.text)
+        .addAttr("class", "default-fade")
+        .addAttr("style", "font-size:18px;font-family:Arial;font-weight:500")
+        .append(line)
+    );
   });
+  svg.append(
+    svg
+      .createElement("text", 178, 130)
+      .addAttr("fill", theme.secondary_text)
+      .addAttr("class", "default-fade")
+      .addAttr("style", "font-size:20px;font-family:Arial;font-weight:bold")
+      .append("@" + data.data.username)
+  );
 
-  svg += `<text class="default-fade" x="178" y="240" fill="#fff" style="font-size:18px;font-family:Arial;font-weight:bold">${data.data.public_metrics.followers_count}</text>`;
-  svg += `<text class="default-fade" x="${
-    178 + data.data.public_metrics.followers_count.toString().length * 9 + 7
-  }" y="240" fill="#ffffff80" style="font-size:18px;font-family:Arial;font-weight:bold">Followers</text>`;
-  svg += `<text class="default-fade" x="${
-    178 +
-    data.data.public_metrics.followers_count.toString().length * 9 +
-    "Followers".length * 9 +
-    20
-  }" y="240" fill="#fff" style="font-size:18px;font-family:Arial;font-weight:bold">${
-    data.data.public_metrics.following_count
-  }</text>`;
+  svg.append(
+    svg
+      .createElement("text", 178, 240)
+      .addAttr("fill", theme.text)
+      .addAttr("class", "default-fade")
+      .addAttr("style", "font-size:18px;font-family:Arial;font-weight:bold")
+      .append(data.data.public_metrics.followers_count.toString())
+  );
+  svg.append(
+    svg
+      .createElement(
+        "text",
+        178 +
+          data.data.public_metrics.followers_count.toString().length * 9 +
+          7,
+        240
+      )
+      .addAttr("fill", theme.secondary_text)
+      .addAttr("class", "default-fade")
+      .addAttr("style", "font-size:18px;font-family:Arial;font-weight:bold")
+      .append("Followers")
+  );
 
-  svg += `<text class="default-fade" x="${
-    178 +
-    data.data.public_metrics.followers_count.toString().length * 9 +
-    "Followers".length * 9 +
-    20 +
-    data.data.public_metrics.following_count.toString().length * 9 +
-    7
-  }" y="240" fill="#ffffff80" style="font-size:18px;font-family:Arial;font-weight:bold">Followings</text>`;
-  svg += `<rect id="intro" width="600" x="600" y="0" height="400" style="fill:${theme.border};"></rect>`;
-  svg += "</svg>";
-  return svg;
+  svg.append(
+    svg
+      .createElement(
+        "text",
+        178 +
+          data.data.public_metrics.followers_count.toString().length * 9 +
+          "Followers".length * 9 +
+          20,
+        240
+      )
+      .addAttr("fill", theme.text)
+      .addAttr("class", "default-fade")
+      .addAttr("style", "font-size:18px;font-family:Arial;font-weight:bold")
+      .append(data.data.public_metrics.following_count.toString())
+  );
+  svg.append(
+    svg
+
+      .createElement(
+        "text",
+        178 +
+          data.data.public_metrics.followers_count.toString().length * 9 +
+          "Followers".length * 9 +
+          20 +
+          data.data.public_metrics.following_count.toString().length * 9 +
+          7,
+        240
+      )
+      .addAttr("fill", theme.secondary_text)
+      .addAttr("class", "default-fade")
+      .addAttr("style", "font-size:18px;font-family:Arial;font-weight:bold")
+      .append("Following")
+  );
+  svg.append(
+    svg
+      .createElement("rect", 600, 0, 600, 400)
+      .addAttr("fill", theme.border)
+      .addAttr("id", "intro")
+  );
+  return svg.build();
 }
