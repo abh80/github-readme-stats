@@ -37,11 +37,6 @@ if (process.env.twitter_theme) {
 
 let svg = `<svg width="600" height="300" xmlns="http://www.w3.org/2000/svg">
 <style>
-svg {
-  background-color: ${theme.background};
-  border-radius:10px;
-  border: 4px solid ${theme.border};
-}
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -81,6 +76,7 @@ svg {
   animation: introAnim 1s;
 }
 </style>
+<rect x="0.5" y="0.5" width="99.8%" height="99.7%" rx="4.5" fill="${theme.background}" stroke="${theme.border}"></rect>
 <clipPath id="imageH">
     <circle cx="95" cy="150" r="75" id="profile-pic"/>
   </clipPath>
