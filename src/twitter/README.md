@@ -2,4 +2,4 @@
 Still work in progress
 
 # Preview
-![k](./preview.svg)
+<img src="./preview.svg"/>
