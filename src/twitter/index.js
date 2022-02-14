@@ -84,11 +84,20 @@ svg {
 <clipPath id="imageH">
     <circle cx="95" cy="150" r="75" id="profile-pic"/>
   </clipPath>
-<image x="25" y="10" width="30" height="30" href="${theme["logo-file"]}"></image>
   <text x="65" y="30" fill="#fff" style="font-size:18px;font-family:Arial;font-weight:bold">Twitter Stats</text>
 `;
 
 async function drawImage(data) {
+  const profilePic = await axios.get(data.data.profile_image_url.replace("_normal",""), {
+    responseType: "arraybuffer",
+  });
+  const profilePic64 = Buffer.from(profilePic.data, "binary").toString("base64");
+
+  const logoPic = await axios.get(theme["logo-file"], {
+    responseType: "arraybuffer",
+  });
+  const logoPic64 = Buffer.from(logoPic.data, "binary").toString("base64");
+  svg+= `<image x="25" y="10" width="30" height="30" href="data:image/png;base64,${logoPic64}"></image>`
   let description = data.data.description;
   let lines = description.split("\n");
   lines = lines.filter((line) => line.trim());
@@ -109,7 +118,7 @@ async function drawImage(data) {
   }
   lines = lines.slice(0, 3);
   svg += data.data.username;
-  svg += `<image clip-path="url(#imageH)" x="20" y="75" width="150" height="150" href="${data.data.profile_image_url.replace("_normal","")}"></image>`;
+  svg += `<image crossorigin="anonymous" clip-path="url(#imageH)" x="20" y="75" width="150" height="150" href="data:image/png;base64,${profilePic64}"></image>`;
   svg += `<text class="default-fade" x="175" y="105" fill="#fff" style="font-size:25px;font-family:Arial;font-weight:bold">${data.data.name}</text>`;
   svg +=
     "<text class='default-fade' x='178' y='130' fill='#ffffff80' style='font-size:20px;font-family:Arial;font-weight:bold'>@" +
