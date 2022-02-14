@@ -234,5 +234,12 @@ async function drawImage(data) {
       .addAttr("fill", theme.border)
       .addAttr("id", "intro")
   );
+  svg.append(
+    svg
+      .createElement("text", 60, 30)
+      .addAttr("fill", theme.text)
+      .addAttr("style", "font-size:18px;font-family:Arial;font-weight:bold")
+      .append("Twitter Stats")
+  );
   return svg.build();
 }
