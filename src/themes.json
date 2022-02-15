@@ -8,6 +8,13 @@
         "logo-file": "https://raw.githubusercontent.com/abh80/github-readme-stats/master/src/twitter/twitter-logo/Twitter%20logo/PNG/2021%20Twitter%20logo%20-%20white.png"
     },
     "stack_default": {
+        "border": "#2f96e8",
+        "background": "#fff",
+        "header_text": "#2b5878",
+        "text": "#fff",
+        "secondary_text": "#9199a1"
+    },
+    "stackoverflow": {
         "border": "#f48225",
         "background": "#2d2d2d",
         "header_text": "#f9c294",
