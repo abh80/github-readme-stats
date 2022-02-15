@@ -9,7 +9,7 @@
     },
     "stack_default": {
         "border": "#2f96e8",
-        "background": "#fff",
+        "background": "#000",
         "header_text": "#2b5878",
         "text": "#fff",
         "secondary_text": "#9199a1"
@@ -18,7 +18,7 @@
         "border": "#f48225",
         "background": "#2d2d2d",
         "header_text": "#f9c294",
-        "text": "#000",
+        "text": "#fff",
         "secondary_text": "#959ca3"
     }
 }
