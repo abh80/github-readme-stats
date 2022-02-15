@@ -50,6 +50,22 @@ let style = `
         r: 70;
     }
 }
+@keyframes introAnim {
+  0% {
+    x:0;
+    width: 0;
+  }
+  50% {
+    x:0;
+    width: 600;
+  }
+  100% {
+    x: 600;
+  }
+}
+#intro {
+  animation: introAnim 1s;
+}
 `;
 router.get("/", async (req, res) => {
   res.removeHeader("X-Powered-By");
@@ -127,7 +143,7 @@ router.get("/", async (req, res) => {
     );
     svg.append(
       svg
-        .createElement("image", 25, 10, 30, 30)
+        .createElement("image", 20, 10, 30, 30)
         .addAttr("href", `data:image/png;base64,${icon_image}`)
     );
     svg.append(
@@ -263,6 +279,13 @@ router.get("/", async (req, res) => {
     //     .addAttr("style", "font-size:12px;font-family:Arial;font-weight:500;")
     //     .addAttr("class", "basic-fade")
     // );
+    svg.append(
+      svg
+        .createElement("rect", 600, 0, 600, 400)
+        .addAttr("fill", theme.border)
+        .addAttr("id", "intro")
+    );
+
     return res.send(svg.build());
   } catch (err) {
     console.error(err);
