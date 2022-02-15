@@ -285,7 +285,7 @@ router.get("/", async (req, res) => {
         .addAttr("fill", theme.border)
         .addAttr("id", "intro")
     );
-
+    res.setHeader("Content-Type", "image/svg+xml");
     return res.send(svg.build());
   } catch (err) {
     console.error(err);
