@@ -1,0 +1,1792 @@
+{
+    "stackoverflow": {
+        "name": "Stack Overflow",
+        "site_url": "https://stackoverflow.com",
+        "icon": "https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon.png"
+    },
+    "serverfault": {
+        "name": "Server Fault",
+        "site_url": "https://serverfault.com",
+        "icon": "https://cdn.sstatic.net/Sites/serverfault/Img/apple-touch-icon.png"
+    },
+    "superuser": {
+        "name": "Super User",
+        "site_url": "https://superuser.com",
+        "icon": "https://cdn.sstatic.net/Sites/superuser/Img/apple-touch-icon.png"
+    },
+    "meta": {
+        "name": "Meta Stack Exchange",
+        "site_url": "https://meta.stackexchange.com",
+        "icon": "https://meta.stackexchange.com/Content/Sites/stackexchangemeta/Img/apple-touch-icon.png"
+    },
+    "webapps": {
+        "name": "Web Applications",
+        "site_url": "https://webapps.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/webapps/Img/apple-touch-icon.png"
+    },
+    "webapps.meta": {
+        "name": "Web Applications Meta",
+        "site_url": "https://webapps.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/webappsmeta/Img/apple-touch-icon.png"
+    },
+    "gaming": {
+        "name": "Arqade",
+        "site_url": "https://gaming.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/gaming/Img/apple-touch-icon.png"
+    },
+    "gaming.meta": {
+        "name": "Arqade Meta",
+        "site_url": "https://gaming.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/gamingmeta/Img/apple-touch-icon.png"
+    },
+    "webmasters": {
+        "name": "Webmasters",
+        "site_url": "https://webmasters.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/webmasters/Img/apple-touch-icon.png"
+    },
+    "webmasters.meta": {
+        "name": "Webmasters Meta",
+        "site_url": "https://webmasters.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/webmastersmeta/Img/apple-touch-icon.png"
+    },
+    "cooking": {
+        "name": "Seasoned Advice",
+        "site_url": "https://cooking.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/cooking/Img/apple-touch-icon.png"
+    },
+    "cooking.meta": {
+        "name": "Seasoned Advice Meta",
+        "site_url": "https://cooking.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/cookingmeta/Img/apple-touch-icon.png"
+    },
+    "gamedev": {
+        "name": "Game Development",
+        "site_url": "https://gamedev.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/gamedev/Img/apple-touch-icon.png"
+    },
+    "gamedev.meta": {
+        "name": "Game Development Meta",
+        "site_url": "https://gamedev.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/gamedevmeta/Img/apple-touch-icon.png"
+    },
+    "photo": {
+        "name": "Photography",
+        "site_url": "https://photo.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/photo/Img/apple-touch-icon.png"
+    },
+    "photo.meta": {
+        "name": "Photography Meta",
+        "site_url": "https://photo.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/photometa/Img/apple-touch-icon.png"
+    },
+    "stats": {
+        "name": "Cross Validated",
+        "site_url": "https://stats.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/stats/Img/apple-touch-icon.png"
+    },
+    "stats.meta": {
+        "name": "Cross Validated Meta",
+        "site_url": "https://stats.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/statsmeta/Img/apple-touch-icon.png"
+    },
+    "math": {
+        "name": "Mathematics",
+        "site_url": "https://math.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/math/Img/apple-touch-icon.png"
+    },
+    "math.meta": {
+        "name": "Mathematics Meta",
+        "site_url": "https://math.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/mathmeta/Img/apple-touch-icon.png"
+    },
+    "diy": {
+        "name": "Home Improvement",
+        "site_url": "https://diy.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/diy/Img/apple-touch-icon.png"
+    },
+    "diy.meta": {
+        "name": "Home Improvement Meta",
+        "site_url": "https://diy.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/diymeta/Img/apple-touch-icon.png"
+    },
+    "meta.superuser": {
+        "name": "Meta Super User",
+        "site_url": "https://meta.superuser.com",
+        "icon": "https://cdn.sstatic.net/Sites/superusermeta/Img/apple-touch-icon.png"
+    },
+    "meta.serverfault": {
+        "name": "Meta Server Fault",
+        "site_url": "https://meta.serverfault.com",
+        "icon": "https://cdn.sstatic.net/Sites/serverfaultmeta/Img/apple-touch-icon.png"
+    },
+    "gis": {
+        "name": "Geographic Information Systems",
+        "site_url": "https://gis.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/gis/Img/apple-touch-icon.png"
+    },
+    "gis.meta": {
+        "name": "Geographic Information Systems Meta",
+        "site_url": "https://gis.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/gismeta/Img/apple-touch-icon.png"
+    },
+    "tex": {
+        "name": "TeX - LaTeX",
+        "site_url": "https://tex.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/tex/Img/apple-touch-icon.png"
+    },
+    "tex.meta": {
+        "name": "TeX - LaTeX Meta",
+        "site_url": "https://tex.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/texmeta/Img/apple-touch-icon.png"
+    },
+    "askubuntu": {
+        "name": "Ask Ubuntu",
+        "site_url": "https://askubuntu.com",
+        "icon": "https://cdn.sstatic.net/Sites/askubuntu/Img/apple-touch-icon.png"
+    },
+    "meta.askubuntu": {
+        "name": "Ask Ubuntu Meta",
+        "site_url": "https://meta.askubuntu.com",
+        "icon": "https://cdn.sstatic.net/Sites/askubuntumeta/Img/apple-touch-icon.png"
+    },
+    "money": {
+        "name": "Personal Finance &amp; Money",
+        "site_url": "https://money.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/money/Img/apple-touch-icon.png"
+    },
+    "money.meta": {
+        "name": "Personal Finance &amp; Money Meta",
+        "site_url": "https://money.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/moneymeta/Img/apple-touch-icon.png"
+    },
+    "english": {
+        "name": "English Language &amp; Usage",
+        "site_url": "https://english.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/english/Img/apple-touch-icon.png"
+    },
+    "english.meta": {
+        "name": "English Language &amp; Usage Meta",
+        "site_url": "https://english.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/englishmeta/Img/apple-touch-icon.png"
+    },
+    "stackapps": {
+        "name": "Stack Apps",
+        "site_url": "https://stackapps.com",
+        "icon": "https://cdn.sstatic.net/Sites/stackapps/Img/apple-touch-icon.png"
+    },
+    "ux": {
+        "name": "User Experience",
+        "site_url": "https://ux.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/ux/Img/apple-touch-icon.png"
+    },
+    "ux.meta": {
+        "name": "User Experience Meta",
+        "site_url": "https://ux.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/uxmeta/Img/apple-touch-icon.png"
+    },
+    "unix": {
+        "name": "Unix &amp; Linux",
+        "site_url": "https://unix.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/unix/Img/apple-touch-icon.png"
+    },
+    "unix.meta": {
+        "name": "Unix &amp; Linux Meta",
+        "site_url": "https://unix.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/unixmeta/Img/apple-touch-icon.png"
+    },
+    "wordpress": {
+        "name": "WordPress Development",
+        "site_url": "https://wordpress.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/wordpress/Img/apple-touch-icon.png"
+    },
+    "wordpress.meta": {
+        "name": "WordPress Development Meta",
+        "site_url": "https://wordpress.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/wordpressmeta/Img/apple-touch-icon.png"
+    },
+    "cstheory": {
+        "name": "Theoretical Computer Science",
+        "site_url": "https://cstheory.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/cstheory/Img/apple-touch-icon.png"
+    },
+    "cstheory.meta": {
+        "name": "Theoretical Computer Science Meta",
+        "site_url": "https://cstheory.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/cstheorymeta/Img/apple-touch-icon.png"
+    },
+    "apple": {
+        "name": "Ask Different",
+        "site_url": "https://apple.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/apple/Img/apple-touch-icon.png"
+    },
+    "apple.meta": {
+        "name": "Ask Different Meta",
+        "site_url": "https://apple.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/applemeta/Img/apple-touch-icon.png"
+    },
+    "rpg": {
+        "name": "Role-playing Games",
+        "site_url": "https://rpg.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/rpg/Img/apple-touch-icon.png"
+    },
+    "rpg.meta": {
+        "name": "Role-playing Games Meta",
+        "site_url": "https://rpg.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/rpgmeta/Img/apple-touch-icon.png"
+    },
+    "bicycles": {
+        "name": "Bicycles",
+        "site_url": "https://bicycles.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/bicycles/Img/apple-touch-icon.png"
+    },
+    "bicycles.meta": {
+        "name": "Bicycles Meta",
+        "site_url": "https://bicycles.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/bicyclesmeta/Img/apple-touch-icon.png"
+    },
+    "softwareengineering": {
+        "name": "Software Engineering",
+        "site_url": "https://softwareengineering.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/softwareengineering/Img/apple-touch-icon.png"
+    },
+    "softwareengineering.meta": {
+        "name": "Software Engineering Meta",
+        "site_url": "https://softwareengineering.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/softwareengineeringmeta/Img/apple-touch-icon.png"
+    },
+    "electronics": {
+        "name": "Electrical Engineering",
+        "site_url": "https://electronics.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/electronics/Img/apple-touch-icon.png"
+    },
+    "electronics.meta": {
+        "name": "Electrical Engineering Meta",
+        "site_url": "https://electronics.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/electronicsmeta/Img/apple-touch-icon.png"
+    },
+    "android": {
+        "name": "Android Enthusiasts",
+        "site_url": "https://android.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/android/Img/apple-touch-icon.png"
+    },
+    "android.meta": {
+        "name": "Android Enthusiasts Meta",
+        "site_url": "https://android.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/androidmeta/Img/apple-touch-icon.png"
+    },
+    "boardgames": {
+        "name": "Board &amp; Card Games",
+        "site_url": "https://boardgames.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/boardgames/Img/apple-touch-icon.png"
+    },
+    "boardgames.meta": {
+        "name": "Board &amp; Card Games Meta",
+        "site_url": "https://boardgames.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/boardgamesmeta/Img/apple-touch-icon.png"
+    },
+    "physics": {
+        "name": "Physics",
+        "site_url": "https://physics.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/physics/Img/apple-touch-icon.png"
+    },
+    "physics.meta": {
+        "name": "Physics Meta",
+        "site_url": "https://physics.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/physicsmeta/Img/apple-touch-icon.png"
+    },
+    "homebrew": {
+        "name": "Homebrewing",
+        "site_url": "https://homebrew.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/homebrew/Img/apple-touch-icon.png"
+    },
+    "homebrew.meta": {
+        "name": "Homebrewing Meta",
+        "site_url": "https://homebrew.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/homebrewmeta/Img/apple-touch-icon.png"
+    },
+    "security": {
+        "name": "Information Security",
+        "site_url": "https://security.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/security/Img/apple-touch-icon.png"
+    },
+    "security.meta": {
+        "name": "Information Security Meta",
+        "site_url": "https://security.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/securitymeta/Img/apple-touch-icon.png"
+    },
+    "writing": {
+        "name": "Writing",
+        "site_url": "https://writing.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/writing/Img/apple-touch-icon.png"
+    },
+    "writing.meta": {
+        "name": "Writing Meta",
+        "site_url": "https://writing.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/writingmeta/Img/apple-touch-icon.png"
+    },
+    "video": {
+        "name": "Video Production",
+        "site_url": "https://video.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/avp/Img/apple-touch-icon.png"
+    },
+    "video.meta": {
+        "name": "Video Production Meta",
+        "site_url": "https://video.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/avpmeta/Img/apple-touch-icon.png"
+    },
+    "graphicdesign": {
+        "name": "Graphic Design",
+        "site_url": "https://graphicdesign.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/graphicdesign/Img/apple-touch-icon.png"
+    },
+    "graphicdesign.meta": {
+        "name": "Graphic Design Meta",
+        "site_url": "https://graphicdesign.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/graphicdesignmeta/Img/apple-touch-icon.png"
+    },
+    "dba": {
+        "name": "Database Administrators",
+        "site_url": "https://dba.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/dba/Img/apple-touch-icon.png"
+    },
+    "dba.meta": {
+        "name": "Database Administrators Meta",
+        "site_url": "https://dba.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/dbameta/Img/apple-touch-icon.png"
+    },
+    "scifi": {
+        "name": "Science Fiction &amp; Fantasy",
+        "site_url": "https://scifi.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/scifi/Img/apple-touch-icon.png"
+    },
+    "scifi.meta": {
+        "name": "Science Fiction &amp; Fantasy Meta",
+        "site_url": "https://scifi.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/scifimeta/Img/apple-touch-icon.png"
+    },
+    "codereview": {
+        "name": "Code Review",
+        "site_url": "https://codereview.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/codereview/Img/apple-touch-icon.png"
+    },
+    "codereview.meta": {
+        "name": "Code Review Meta",
+        "site_url": "https://codereview.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/codereviewmeta/Img/apple-touch-icon.png"
+    },
+    "codegolf": {
+        "name": "Code Golf",
+        "site_url": "https://codegolf.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/codegolf/Img/apple-touch-icon.png"
+    },
+    "codegolf.meta": {
+        "name": "Code Golf Meta",
+        "site_url": "https://codegolf.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/codegolfmeta/Img/apple-touch-icon.png"
+    },
+    "quant": {
+        "name": "Quantitative Finance",
+        "site_url": "https://quant.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/quant/Img/apple-touch-icon.png"
+    },
+    "quant.meta": {
+        "name": "Quantitative Finance Meta",
+        "site_url": "https://quant.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/quantmeta/Img/apple-touch-icon.png"
+    },
+    "pm": {
+        "name": "Project Management",
+        "site_url": "https://pm.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/pm/Img/apple-touch-icon.png"
+    },
+    "pm.meta": {
+        "name": "Project Management Meta",
+        "site_url": "https://pm.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/pmmeta/Img/apple-touch-icon.png"
+    },
+    "skeptics": {
+        "name": "Skeptics",
+        "site_url": "https://skeptics.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/skeptics/Img/apple-touch-icon.png"
+    },
+    "skeptics.meta": {
+        "name": "Skeptics Meta",
+        "site_url": "https://skeptics.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/skepticsmeta/Img/apple-touch-icon.png"
+    },
+    "fitness": {
+        "name": "Physical Fitness",
+        "site_url": "https://fitness.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/fitness/Img/apple-touch-icon.png"
+    },
+    "fitness.meta": {
+        "name": "Physical Fitness Meta",
+        "site_url": "https://fitness.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/fitnessmeta/Img/apple-touch-icon.png"
+    },
+    "drupal": {
+        "name": "Drupal Answers",
+        "site_url": "https://drupal.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/drupal/Img/apple-touch-icon.png"
+    },
+    "drupal.meta": {
+        "name": "Drupal Answers Meta",
+        "site_url": "https://drupal.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/drupalmeta/Img/apple-touch-icon.png"
+    },
+    "mechanics": {
+        "name": "Motor Vehicle Maintenance &amp; Repair",
+        "site_url": "https://mechanics.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/mechanics/Img/apple-touch-icon.png"
+    },
+    "mechanics.meta": {
+        "name": "Motor Vehicle Maintenance &amp; Repair Meta",
+        "site_url": "https://mechanics.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/mechanicsmeta/Img/apple-touch-icon.png"
+    },
+    "parenting": {
+        "name": "Parenting",
+        "site_url": "https://parenting.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/parenting/Img/apple-touch-icon.png"
+    },
+    "parenting.meta": {
+        "name": "Parenting Meta",
+        "site_url": "https://parenting.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/parentingmeta/Img/apple-touch-icon.png"
+    },
+    "sharepoint": {
+        "name": "SharePoint",
+        "site_url": "https://sharepoint.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/sharepoint/Img/apple-touch-icon.png"
+    },
+    "sharepoint.meta": {
+        "name": "SharePoint Meta",
+        "site_url": "https://sharepoint.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/sharepointmeta/Img/apple-touch-icon.png"
+    },
+    "music": {
+        "name": "Music: Practice &amp; Theory",
+        "site_url": "https://music.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/music/Img/apple-touch-icon.png"
+    },
+    "music.meta": {
+        "name": "Music: Practice &amp; Theory Meta",
+        "site_url": "https://music.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/musicmeta/Img/apple-touch-icon.png"
+    },
+    "sqa": {
+        "name": "Software Quality Assurance &amp; Testing",
+        "site_url": "https://sqa.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/sqa/Img/apple-touch-icon.png"
+    },
+    "sqa.meta": {
+        "name": "Software Quality Assurance &amp; Testing Meta",
+        "site_url": "https://sqa.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/sqameta/Img/apple-touch-icon.png"
+    },
+    "judaism": {
+        "name": "Mi Yodeya",
+        "site_url": "https://judaism.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/judaism/Img/apple-touch-icon.png"
+    },
+    "judaism.meta": {
+        "name": "Mi Yodeya Meta",
+        "site_url": "https://judaism.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/judaismmeta/Img/apple-touch-icon.png"
+    },
+    "german": {
+        "name": "German Language",
+        "site_url": "https://german.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/german/Img/apple-touch-icon.png"
+    },
+    "german.meta": {
+        "name": "German Language Meta",
+        "site_url": "https://german.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/germanmeta/Img/apple-touch-icon.png"
+    },
+    "japanese": {
+        "name": "Japanese Language",
+        "site_url": "https://japanese.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/japanese/Img/apple-touch-icon.png"
+    },
+    "japanese.meta": {
+        "name": "Japanese Language Meta",
+        "site_url": "https://japanese.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/japanesemeta/Img/apple-touch-icon.png"
+    },
+    "philosophy": {
+        "name": "Philosophy",
+        "site_url": "https://philosophy.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/philosophy/Img/apple-touch-icon.png"
+    },
+    "philosophy.meta": {
+        "name": "Philosophy Meta",
+        "site_url": "https://philosophy.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/philosophymeta/Img/apple-touch-icon.png"
+    },
+    "gardening": {
+        "name": "Gardening &amp; Landscaping",
+        "site_url": "https://gardening.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/gardening/Img/apple-touch-icon.png"
+    },
+    "gardening.meta": {
+        "name": "Gardening &amp; Landscaping Meta",
+        "site_url": "https://gardening.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/gardeningmeta/Img/apple-touch-icon.png"
+    },
+    "travel": {
+        "name": "Travel",
+        "site_url": "https://travel.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/travel/Img/apple-touch-icon.png"
+    },
+    "travel.meta": {
+        "name": "Travel Meta",
+        "site_url": "https://travel.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/travelmeta/Img/apple-touch-icon.png"
+    },
+    "crypto": {
+        "name": "Cryptography",
+        "site_url": "https://crypto.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/crypto/Img/apple-touch-icon.png"
+    },
+    "crypto.meta": {
+        "name": "Cryptography Meta",
+        "site_url": "https://crypto.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/cryptometa/Img/apple-touch-icon.png"
+    },
+    "dsp": {
+        "name": "Signal Processing",
+        "site_url": "https://dsp.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/dsp/Img/apple-touch-icon.png"
+    },
+    "dsp.meta": {
+        "name": "Signal Processing Meta",
+        "site_url": "https://dsp.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/dspmeta/Img/apple-touch-icon.png"
+    },
+    "french": {
+        "name": "French Language",
+        "site_url": "https://french.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/french/Img/apple-touch-icon.png"
+    },
+    "french.meta": {
+        "name": "French Language Meta",
+        "site_url": "https://french.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/frenchmeta/Img/apple-touch-icon.png"
+    },
+    "christianity": {
+        "name": "Christianity",
+        "site_url": "https://christianity.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/christianity/Img/apple-touch-icon.png"
+    },
+    "christianity.meta": {
+        "name": "Christianity Meta",
+        "site_url": "https://christianity.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/christianitymeta/Img/apple-touch-icon.png"
+    },
+    "bitcoin": {
+        "name": "Bitcoin",
+        "site_url": "https://bitcoin.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/bitcoin/Img/apple-touch-icon.png"
+    },
+    "bitcoin.meta": {
+        "name": "Bitcoin Meta",
+        "site_url": "https://bitcoin.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/bitcoinmeta/Img/apple-touch-icon.png"
+    },
+    "linguistics": {
+        "name": "Linguistics",
+        "site_url": "https://linguistics.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/linguistics/Img/apple-touch-icon.png"
+    },
+    "linguistics.meta": {
+        "name": "Linguistics Meta",
+        "site_url": "https://linguistics.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/linguisticsmeta/Img/apple-touch-icon.png"
+    },
+    "hermeneutics": {
+        "name": "Biblical Hermeneutics",
+        "site_url": "https://hermeneutics.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/hermeneutics/Img/apple-touch-icon.png"
+    },
+    "hermeneutics.meta": {
+        "name": "Biblical Hermeneutics Meta",
+        "site_url": "https://hermeneutics.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/hermeneuticsmeta/Img/apple-touch-icon.png"
+    },
+    "history": {
+        "name": "History",
+        "site_url": "https://history.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/history/Img/apple-touch-icon.png"
+    },
+    "history.meta": {
+        "name": "History Meta",
+        "site_url": "https://history.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/historymeta/Img/apple-touch-icon.png"
+    },
+    "bricks": {
+        "name": "Bricks",
+        "site_url": "https://bricks.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/bricks/Img/apple-touch-icon.png"
+    },
+    "bricks.meta": {
+        "name": "Bricks Meta",
+        "site_url": "https://bricks.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/bricksmeta/Img/apple-touch-icon.png"
+    },
+    "spanish": {
+        "name": "Spanish Language",
+        "site_url": "https://spanish.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/spanish/Img/apple-touch-icon.png"
+    },
+    "spanish.meta": {
+        "name": "Spanish Language Meta",
+        "site_url": "https://spanish.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/spanishmeta/Img/apple-touch-icon.png"
+    },
+    "scicomp": {
+        "name": "Computational Science",
+        "site_url": "https://scicomp.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/scicomp/Img/apple-touch-icon.png"
+    },
+    "scicomp.meta": {
+        "name": "Computational Science Meta",
+        "site_url": "https://scicomp.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/scicompmeta/Img/apple-touch-icon.png"
+    },
+    "movies": {
+        "name": "Movies &amp; TV",
+        "site_url": "https://movies.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/movies/Img/apple-touch-icon.png"
+    },
+    "movies.meta": {
+        "name": "Movies &amp; TV Meta",
+        "site_url": "https://movies.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/moviesmeta/Img/apple-touch-icon.png"
+    },
+    "chinese": {
+        "name": "Chinese Language",
+        "site_url": "https://chinese.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/chinese/Img/apple-touch-icon.png"
+    },
+    "chinese.meta": {
+        "name": "Chinese Language Meta",
+        "site_url": "https://chinese.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/chinesemeta/Img/apple-touch-icon.png"
+    },
+    "biology": {
+        "name": "Biology",
+        "site_url": "https://biology.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/biology/Img/apple-touch-icon.png"
+    },
+    "biology.meta": {
+        "name": "Biology Meta",
+        "site_url": "https://biology.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/biologymeta/Img/apple-touch-icon.png"
+    },
+    "poker": {
+        "name": "Poker",
+        "site_url": "https://poker.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/poker/Img/apple-touch-icon.png"
+    },
+    "poker.meta": {
+        "name": "Poker Meta",
+        "site_url": "https://poker.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/pokermeta/Img/apple-touch-icon.png"
+    },
+    "mathematica": {
+        "name": "Mathematica",
+        "site_url": "https://mathematica.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/mathematica/Img/apple-touch-icon.png"
+    },
+    "mathematica.meta": {
+        "name": "Mathematica Meta",
+        "site_url": "https://mathematica.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/mathematicameta/Img/apple-touch-icon.png"
+    },
+    "psychology": {
+        "name": "Psychology &amp; Neuroscience",
+        "site_url": "https://psychology.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/psychology/Img/apple-touch-icon.png"
+    },
+    "psychology.meta": {
+        "name": "Psychology &amp; Neuroscience Meta",
+        "site_url": "https://psychology.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/psychologymeta/Img/apple-touch-icon.png"
+    },
+    "outdoors": {
+        "name": "The Great Outdoors",
+        "site_url": "https://outdoors.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/outdoors/Img/apple-touch-icon.png"
+    },
+    "outdoors.meta": {
+        "name": "The Great Outdoors Meta",
+        "site_url": "https://outdoors.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/outdoorsmeta/Img/apple-touch-icon.png"
+    },
+    "martialarts": {
+        "name": "Martial Arts",
+        "site_url": "https://martialarts.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/martialarts/Img/apple-touch-icon.png"
+    },
+    "martialarts.meta": {
+        "name": "Martial Arts Meta",
+        "site_url": "https://martialarts.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/martialartsmeta/Img/apple-touch-icon.png"
+    },
+    "sports": {
+        "name": "Sports",
+        "site_url": "https://sports.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/sports/Img/apple-touch-icon.png"
+    },
+    "sports.meta": {
+        "name": "Sports Meta",
+        "site_url": "https://sports.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/sportsmeta/Img/apple-touch-icon.png"
+    },
+    "academia": {
+        "name": "Academia",
+        "site_url": "https://academia.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/academia/Img/apple-touch-icon.png"
+    },
+    "academia.meta": {
+        "name": "Academia Meta",
+        "site_url": "https://academia.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/academiameta/Img/apple-touch-icon.png"
+    },
+    "cs": {
+        "name": "Computer Science",
+        "site_url": "https://cs.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/cs/Img/apple-touch-icon.png"
+    },
+    "cs.meta": {
+        "name": "Computer Science Meta",
+        "site_url": "https://cs.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/csmeta/Img/apple-touch-icon.png"
+    },
+    "workplace": {
+        "name": "The Workplace",
+        "site_url": "https://workplace.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/workplace/Img/apple-touch-icon.png"
+    },
+    "workplace.meta": {
+        "name": "The Workplace Meta",
+        "site_url": "https://workplace.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/workplacemeta/Img/apple-touch-icon.png"
+    },
+    "windowsphone": {
+        "name": "Windows Phone",
+        "site_url": "https://windowsphone.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/windowsphone/Img/apple-touch-icon.png"
+    },
+    "windowsphone.meta": {
+        "name": "Windows Phone Meta",
+        "site_url": "https://windowsphone.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/windowsphonemeta/Img/apple-touch-icon.png"
+    },
+    "chemistry": {
+        "name": "Chemistry",
+        "site_url": "https://chemistry.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/chemistry/Img/apple-touch-icon.png"
+    },
+    "chemistry.meta": {
+        "name": "Chemistry Meta",
+        "site_url": "https://chemistry.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/chemistrymeta/Img/apple-touch-icon.png"
+    },
+    "chess": {
+        "name": "Chess",
+        "site_url": "https://chess.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/chess/Img/apple-touch-icon.png"
+    },
+    "chess.meta": {
+        "name": "Chess Meta",
+        "site_url": "https://chess.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/chessmeta/Img/apple-touch-icon.png"
+    },
+    "raspberrypi": {
+        "name": "Raspberry Pi",
+        "site_url": "https://raspberrypi.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/raspberrypi/Img/apple-touch-icon.png"
+    },
+    "raspberrypi.meta": {
+        "name": "Raspberry Pi Meta",
+        "site_url": "https://raspberrypi.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/raspberrypimeta/Img/apple-touch-icon.png"
+    },
+    "russian": {
+        "name": "Russian Language",
+        "site_url": "https://russian.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/russian/Img/apple-touch-icon.png"
+    },
+    "russian.meta": {
+        "name": "Russian Language Meta",
+        "site_url": "https://russian.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/russianmeta/Img/apple-touch-icon.png"
+    },
+    "islam": {
+        "name": "Islam",
+        "site_url": "https://islam.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/islam/Img/apple-touch-icon.png"
+    },
+    "islam.meta": {
+        "name": "Islam Meta",
+        "site_url": "https://islam.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/islammeta/Img/apple-touch-icon.png"
+    },
+    "salesforce": {
+        "name": "Salesforce",
+        "site_url": "https://salesforce.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/salesforce/Img/apple-touch-icon.png"
+    },
+    "salesforce.meta": {
+        "name": "Salesforce Meta",
+        "site_url": "https://salesforce.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/salesforcemeta/Img/apple-touch-icon.png"
+    },
+    "patents": {
+        "name": "Ask Patents",
+        "site_url": "https://patents.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/patents/Img/apple-touch-icon.png"
+    },
+    "patents.meta": {
+        "name": "Ask Patents Meta",
+        "site_url": "https://patents.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/patentsmeta/Img/apple-touch-icon.png"
+    },
+    "genealogy": {
+        "name": "Genealogy &amp; Family History",
+        "site_url": "https://genealogy.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/genealogy/Img/apple-touch-icon.png"
+    },
+    "genealogy.meta": {
+        "name": "Genealogy &amp; Family History Meta",
+        "site_url": "https://genealogy.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/genealogymeta/Img/apple-touch-icon.png"
+    },
+    "robotics": {
+        "name": "Robotics",
+        "site_url": "https://robotics.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/robotics/Img/apple-touch-icon.png"
+    },
+    "robotics.meta": {
+        "name": "Robotics Meta",
+        "site_url": "https://robotics.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/roboticsmeta/Img/apple-touch-icon.png"
+    },
+    "expressionengine": {
+        "name": "ExpressionEngine&#174; Answers",
+        "site_url": "https://expressionengine.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/expressionengine/Img/apple-touch-icon.png"
+    },
+    "expressionengine.meta": {
+        "name": "ExpressionEngine&#174; Answers Meta",
+        "site_url": "https://expressionengine.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/expressionenginemeta/Img/apple-touch-icon.png"
+    },
+    "politics": {
+        "name": "Politics",
+        "site_url": "https://politics.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/politics/Img/apple-touch-icon.png"
+    },
+    "politics.meta": {
+        "name": "Politics Meta",
+        "site_url": "https://politics.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/politicsmeta/Img/apple-touch-icon.png"
+    },
+    "anime": {
+        "name": "Anime &amp; Manga",
+        "site_url": "https://anime.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/anime/Img/apple-touch-icon.png"
+    },
+    "anime.meta": {
+        "name": "Anime &amp; Manga Meta",
+        "site_url": "https://anime.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/animemeta/Img/apple-touch-icon.png"
+    },
+    "magento": {
+        "name": "Magento",
+        "site_url": "https://magento.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/magento/Img/apple-touch-icon.png"
+    },
+    "magento.meta": {
+        "name": "Magento Meta",
+        "site_url": "https://magento.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/magentometa/Img/apple-touch-icon.png"
+    },
+    "ell": {
+        "name": "English Language Learners",
+        "site_url": "https://ell.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/ell/Img/apple-touch-icon.png"
+    },
+    "ell.meta": {
+        "name": "English Language Learners Meta",
+        "site_url": "https://ell.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/ellmeta/Img/apple-touch-icon.png"
+    },
+    "sustainability": {
+        "name": "Sustainable Living",
+        "site_url": "https://sustainability.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/sustainability/Img/apple-touch-icon.png"
+    },
+    "sustainability.meta": {
+        "name": "Sustainable Living Meta",
+        "site_url": "https://sustainability.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/sustainabilitymeta/Img/apple-touch-icon.png"
+    },
+    "tridion": {
+        "name": "Tridion",
+        "site_url": "https://tridion.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/tridion/Img/apple-touch-icon.png"
+    },
+    "tridion.meta": {
+        "name": "Tridion Meta",
+        "site_url": "https://tridion.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/tridionmeta/Img/apple-touch-icon.png"
+    },
+    "reverseengineering": {
+        "name": "Reverse Engineering",
+        "site_url": "https://reverseengineering.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/reverseengineering/Img/apple-touch-icon.png"
+    },
+    "reverseengineering.meta": {
+        "name": "Reverse Engineering Meta",
+        "site_url": "https://reverseengineering.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/reverseengineeringmeta/Img/apple-touch-icon.png"
+    },
+    "networkengineering": {
+        "name": "Network Engineering",
+        "site_url": "https://networkengineering.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/networkengineering/Img/apple-touch-icon.png"
+    },
+    "networkengineering.meta": {
+        "name": "Network Engineering Meta",
+        "site_url": "https://networkengineering.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/networkengineeringmeta/Img/apple-touch-icon.png"
+    },
+    "opendata": {
+        "name": "Open Data",
+        "site_url": "https://opendata.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/opendata/Img/apple-touch-icon.png"
+    },
+    "opendata.meta": {
+        "name": "Open Data Meta",
+        "site_url": "https://opendata.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/opendatameta/Img/apple-touch-icon.png"
+    },
+    "freelancing": {
+        "name": "Freelancing",
+        "site_url": "https://freelancing.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/freelancing/Img/apple-touch-icon.png"
+    },
+    "freelancing.meta": {
+        "name": "Freelancing Meta",
+        "site_url": "https://freelancing.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/freelancingmeta/Img/apple-touch-icon.png"
+    },
+    "blender": {
+        "name": "Blender",
+        "site_url": "https://blender.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/blender/Img/apple-touch-icon.png"
+    },
+    "blender.meta": {
+        "name": "Blender Meta",
+        "site_url": "https://blender.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/blendermeta/Img/apple-touch-icon.png"
+    },
+    "mathoverflow.net": {
+        "name": "MathOverflow",
+        "site_url": "https://mathoverflow.net",
+        "icon": "https://cdn.sstatic.net/Sites/mathoverflow/Img/apple-touch-icon.png"
+    },
+    "meta.mathoverflow.net": {
+        "name": "MathOverflow Meta",
+        "site_url": "https://meta.mathoverflow.net",
+        "icon": "https://cdn.sstatic.net/Sites/mathoverflowmeta/Img/apple-touch-icon.png"
+    },
+    "space": {
+        "name": "Space Exploration",
+        "site_url": "https://space.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/space/Img/apple-touch-icon.png"
+    },
+    "space.meta": {
+        "name": "Space Exploration Meta",
+        "site_url": "https://space.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/spacemeta/Img/apple-touch-icon.png"
+    },
+    "sound": {
+        "name": "Sound Design",
+        "site_url": "https://sound.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/sound/Img/apple-touch-icon.png"
+    },
+    "sound.meta": {
+        "name": "Sound Design Meta",
+        "site_url": "https://sound.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/soundmeta/Img/apple-touch-icon.png"
+    },
+    "astronomy": {
+        "name": "Astronomy",
+        "site_url": "https://astronomy.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/astronomy/Img/apple-touch-icon.png"
+    },
+    "astronomy.meta": {
+        "name": "Astronomy Meta",
+        "site_url": "https://astronomy.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/astronomymeta/Img/apple-touch-icon.png"
+    },
+    "tor": {
+        "name": "Tor",
+        "site_url": "https://tor.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/tor/Img/apple-touch-icon.png"
+    },
+    "tor.meta": {
+        "name": "Tor Meta",
+        "site_url": "https://tor.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/tormeta/Img/apple-touch-icon.png"
+    },
+    "pets": {
+        "name": "Pets",
+        "site_url": "https://pets.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/pets/Img/apple-touch-icon.png"
+    },
+    "pets.meta": {
+        "name": "Pets Meta",
+        "site_url": "https://pets.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/petsmeta/Img/apple-touch-icon.png"
+    },
+    "ham": {
+        "name": "Amateur Radio",
+        "site_url": "https://ham.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/ham/Img/apple-touch-icon.png"
+    },
+    "ham.meta": {
+        "name": "Amateur Radio Meta",
+        "site_url": "https://ham.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/hammeta/Img/apple-touch-icon.png"
+    },
+    "italian": {
+        "name": "Italian Language",
+        "site_url": "https://italian.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/italian/Img/apple-touch-icon.png"
+    },
+    "italian.meta": {
+        "name": "Italian Language Meta",
+        "site_url": "https://italian.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/italianmeta/Img/apple-touch-icon.png"
+    },
+    "pt.stackoverflow": {
+        "name": "Stack Overflow em Portugu&#234;s",
+        "site_url": "https://pt.stackoverflow.com",
+        "icon": "https://cdn.sstatic.net/Sites/br/Img/apple-touch-icon.png"
+    },
+    "pt.meta.stackoverflow": {
+        "name": "Stack Overflow em Portugu&#234;s Meta",
+        "site_url": "https://pt.meta.stackoverflow.com",
+        "icon": "https://cdn.sstatic.net/Sites/brmeta/Img/apple-touch-icon.png"
+    },
+    "aviation": {
+        "name": "Aviation",
+        "site_url": "https://aviation.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/aviation/Img/apple-touch-icon.png"
+    },
+    "aviation.meta": {
+        "name": "Aviation Meta",
+        "site_url": "https://aviation.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/aviationmeta/Img/apple-touch-icon.png"
+    },
+    "ebooks": {
+        "name": "Ebooks",
+        "site_url": "https://ebooks.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/ebooks/Img/apple-touch-icon.png"
+    },
+    "ebooks.meta": {
+        "name": "Ebooks Meta",
+        "site_url": "https://ebooks.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/ebooksmeta/Img/apple-touch-icon.png"
+    },
+    "alcohol": {
+        "name": "Beer, Wine &amp; Spirits",
+        "site_url": "https://alcohol.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/alcohol/Img/apple-touch-icon.png"
+    },
+    "alcohol.meta": {
+        "name": "Beer, Wine &amp; Spirits Meta",
+        "site_url": "https://alcohol.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/alcoholmeta/Img/apple-touch-icon.png"
+    },
+    "softwarerecs": {
+        "name": "Software Recommendations",
+        "site_url": "https://softwarerecs.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/softwarerecs/Img/apple-touch-icon.png"
+    },
+    "softwarerecs.meta": {
+        "name": "Software Recommendations Meta",
+        "site_url": "https://softwarerecs.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/softwarerecsmeta/Img/apple-touch-icon.png"
+    },
+    "arduino": {
+        "name": "Arduino",
+        "site_url": "https://arduino.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/arduino/Img/apple-touch-icon.png"
+    },
+    "arduino.meta": {
+        "name": "Arduino Meta",
+        "site_url": "https://arduino.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/arduinometa/Img/apple-touch-icon.png"
+    },
+    "cs50": {
+        "name": "CS50",
+        "site_url": "https://cs50.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/cs50/Img/apple-touch-icon.png"
+    },
+    "cs50.meta": {
+        "name": "CS50 Meta",
+        "site_url": "https://cs50.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/cs50meta/Img/apple-touch-icon.png"
+    },
+    "expatriates": {
+        "name": "Expatriates",
+        "site_url": "https://expatriates.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/expatriates/Img/apple-touch-icon.png"
+    },
+    "expatriates.meta": {
+        "name": "Expatriates Meta",
+        "site_url": "https://expatriates.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/expatriatesmeta/Img/apple-touch-icon.png"
+    },
+    "matheducators": {
+        "name": "Mathematics Educators",
+        "site_url": "https://matheducators.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/matheducators/Img/apple-touch-icon.png"
+    },
+    "matheducators.meta": {
+        "name": "Mathematics Educators Meta",
+        "site_url": "https://matheducators.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/matheducatorsmeta/Img/apple-touch-icon.png"
+    },
+    "meta.stackoverflow": {
+        "name": "Meta Stack Overflow",
+        "site_url": "https://meta.stackoverflow.com",
+        "icon": "https://meta.stackoverflow.com/Content/Sites/stackoverflowmeta/Img/apple-touch-icon.png"
+    },
+    "earthscience": {
+        "name": "Earth Science",
+        "site_url": "https://earthscience.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/earthscience/Img/apple-touch-icon.png"
+    },
+    "earthscience.meta": {
+        "name": "Earth Science Meta",
+        "site_url": "https://earthscience.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/earthsciencemeta/Img/apple-touch-icon.png"
+    },
+    "joomla": {
+        "name": "Joomla",
+        "site_url": "https://joomla.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/joomla/Img/apple-touch-icon.png"
+    },
+    "joomla.meta": {
+        "name": "Joomla Meta",
+        "site_url": "https://joomla.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/joomlameta/Img/apple-touch-icon.png"
+    },
+    "datascience": {
+        "name": "Data Science",
+        "site_url": "https://datascience.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/datascience/Img/apple-touch-icon.png"
+    },
+    "datascience.meta": {
+        "name": "Data Science Meta",
+        "site_url": "https://datascience.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/datasciencemeta/Img/apple-touch-icon.png"
+    },
+    "puzzling": {
+        "name": "Puzzling",
+        "site_url": "https://puzzling.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/puzzling/Img/apple-touch-icon.png"
+    },
+    "puzzling.meta": {
+        "name": "Puzzling Meta",
+        "site_url": "https://puzzling.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/puzzlingmeta/Img/apple-touch-icon.png"
+    },
+    "craftcms": {
+        "name": "Craft CMS",
+        "site_url": "https://craftcms.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/craftcms/Img/apple-touch-icon.png"
+    },
+    "craftcms.meta": {
+        "name": "Craft CMS Meta",
+        "site_url": "https://craftcms.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/craftcmsmeta/Img/apple-touch-icon.png"
+    },
+    "buddhism": {
+        "name": "Buddhism",
+        "site_url": "https://buddhism.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/buddhism/Img/apple-touch-icon.png"
+    },
+    "buddhism.meta": {
+        "name": "Buddhism Meta",
+        "site_url": "https://buddhism.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/buddhismmeta/Img/apple-touch-icon.png"
+    },
+    "hinduism": {
+        "name": "Hinduism",
+        "site_url": "https://hinduism.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/hinduism/Img/apple-touch-icon.png"
+    },
+    "hinduism.meta": {
+        "name": "Hinduism Meta",
+        "site_url": "https://hinduism.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/hinduismmeta/Img/apple-touch-icon.png"
+    },
+    "communitybuilding": {
+        "name": "Community Building",
+        "site_url": "https://communitybuilding.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/communitybuilding/Img/apple-touch-icon.png"
+    },
+    "communitybuilding.meta": {
+        "name": "Community Building Meta",
+        "site_url": "https://communitybuilding.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/communitybuildingmeta/Img/apple-touch-icon.png"
+    },
+    "worldbuilding": {
+        "name": "Worldbuilding",
+        "site_url": "https://worldbuilding.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/worldbuilding/Img/apple-touch-icon.png"
+    },
+    "worldbuilding.meta": {
+        "name": "Worldbuilding Meta",
+        "site_url": "https://worldbuilding.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/worldbuildingmeta/Img/apple-touch-icon.png"
+    },
+    "ja.stackoverflow": {
+        "name": "スタック・オーバーフロー",
+        "site_url": "https://ja.stackoverflow.com",
+        "icon": "https://cdn.sstatic.net/Sites/ja/Img/apple-touch-icon.png"
+    },
+    "ja.meta.stackoverflow": {
+        "name": "スタック・オーバーフローMeta",
+        "site_url": "https://ja.meta.stackoverflow.com",
+        "icon": "https://cdn.sstatic.net/Sites/jameta/Img/apple-touch-icon.png"
+    },
+    "emacs": {
+        "name": "Emacs",
+        "site_url": "https://emacs.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/emacs/Img/apple-touch-icon.png"
+    },
+    "emacs.meta": {
+        "name": "Emacs Meta",
+        "site_url": "https://emacs.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/emacsmeta/Img/apple-touch-icon.png"
+    },
+    "hsm": {
+        "name": "History of Science and Mathematics",
+        "site_url": "https://hsm.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/hsm/Img/apple-touch-icon.png"
+    },
+    "hsm.meta": {
+        "name": "History of Science and Mathematics Meta",
+        "site_url": "https://hsm.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/hsmmeta/Img/apple-touch-icon.png"
+    },
+    "economics": {
+        "name": "Economics",
+        "site_url": "https://economics.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/economics/Img/apple-touch-icon.png"
+    },
+    "economics.meta": {
+        "name": "Economics Meta",
+        "site_url": "https://economics.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/economicsmeta/Img/apple-touch-icon.png"
+    },
+    "lifehacks": {
+        "name": "Lifehacks",
+        "site_url": "https://lifehacks.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/lifehacks/Img/apple-touch-icon.png"
+    },
+    "lifehacks.meta": {
+        "name": "Lifehacks Meta",
+        "site_url": "https://lifehacks.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/lifehacksmeta/Img/apple-touch-icon.png"
+    },
+    "engineering": {
+        "name": "Engineering",
+        "site_url": "https://engineering.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/engineering/Img/apple-touch-icon.png"
+    },
+    "engineering.meta": {
+        "name": "Engineering Meta",
+        "site_url": "https://engineering.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/engineeringmeta/Img/apple-touch-icon.png"
+    },
+    "coffee": {
+        "name": "Coffee",
+        "site_url": "https://coffee.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/coffee/Img/apple-touch-icon.png"
+    },
+    "coffee.meta": {
+        "name": "Coffee Meta",
+        "site_url": "https://coffee.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/coffeemeta/Img/apple-touch-icon.png"
+    },
+    "vi": {
+        "name": "Vi and Vim",
+        "site_url": "https://vi.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/vi/Img/apple-touch-icon.png"
+    },
+    "vi.meta": {
+        "name": "Vi and Vim Meta",
+        "site_url": "https://vi.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/vimeta/Img/apple-touch-icon.png"
+    },
+    "musicfans": {
+        "name": "Music Fans",
+        "site_url": "https://musicfans.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/musicfans/Img/apple-touch-icon.png"
+    },
+    "musicfans.meta": {
+        "name": "Music Fans Meta",
+        "site_url": "https://musicfans.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/musicfansmeta/Img/apple-touch-icon.png"
+    },
+    "woodworking": {
+        "name": "Woodworking",
+        "site_url": "https://woodworking.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/woodworking/Img/apple-touch-icon.png"
+    },
+    "woodworking.meta": {
+        "name": "Woodworking Meta",
+        "site_url": "https://woodworking.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/woodworkingmeta/Img/apple-touch-icon.png"
+    },
+    "civicrm": {
+        "name": "CiviCRM",
+        "site_url": "https://civicrm.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/civicrm/Img/apple-touch-icon.png"
+    },
+    "civicrm.meta": {
+        "name": "CiviCRM Meta",
+        "site_url": "https://civicrm.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/civicrmmeta/Img/apple-touch-icon.png"
+    },
+    "medicalsciences": {
+        "name": "Medical Sciences",
+        "site_url": "https://medicalsciences.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/medicalsciences/Img/apple-touch-icon.png"
+    },
+    "medicalsciences.meta": {
+        "name": "Medical Sciences Meta",
+        "site_url": "https://medicalsciences.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/medicalsciencesmeta/Img/apple-touch-icon.png"
+    },
+    "ru.stackoverflow": {
+        "name": "Stack Overflow на русском",
+        "site_url": "https://ru.stackoverflow.com",
+        "icon": "https://cdn.sstatic.net/Sites/ru/Img/apple-touch-icon.png"
+    },
+    "ru.meta.stackoverflow": {
+        "name": "Stack Overflow на русском Meta",
+        "site_url": "https://ru.meta.stackoverflow.com",
+        "icon": "https://cdn.sstatic.net/Sites/rumeta/Img/apple-touch-icon.png"
+    },
+    "rus": {
+        "name": "Русский язык",
+        "site_url": "https://rus.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/rus/Img/apple-touch-icon.png"
+    },
+    "rus.meta": {
+        "name": "Русский язык Meta",
+        "site_url": "https://rus.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/rusmeta/Img/apple-touch-icon.png"
+    },
+    "mythology": {
+        "name": "Mythology &amp; Folklore",
+        "site_url": "https://mythology.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/mythology/Img/apple-touch-icon.png"
+    },
+    "mythology.meta": {
+        "name": "Mythology &amp; Folklore Meta",
+        "site_url": "https://mythology.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/mythologymeta/Img/apple-touch-icon.png"
+    },
+    "law": {
+        "name": "Law",
+        "site_url": "https://law.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/law/Img/apple-touch-icon.png"
+    },
+    "law.meta": {
+        "name": "Law Meta",
+        "site_url": "https://law.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/lawmeta/Img/apple-touch-icon.png"
+    },
+    "opensource": {
+        "name": "Open Source",
+        "site_url": "https://opensource.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/opensource/Img/apple-touch-icon.png"
+    },
+    "opensource.meta": {
+        "name": "Open Source Meta",
+        "site_url": "https://opensource.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/opensourcemeta/Img/apple-touch-icon.png"
+    },
+    "elementaryos": {
+        "name": "elementary OS",
+        "site_url": "https://elementaryos.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/elementaryos/Img/apple-touch-icon.png"
+    },
+    "elementaryos.meta": {
+        "name": "elementary OS Meta",
+        "site_url": "https://elementaryos.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/elementaryosmeta/Img/apple-touch-icon.png"
+    },
+    "portuguese": {
+        "name": "Portuguese Language",
+        "site_url": "https://portuguese.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/portuguese/Img/apple-touch-icon.png"
+    },
+    "portuguese.meta": {
+        "name": "Portuguese Language Meta",
+        "site_url": "https://portuguese.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/portuguesemeta/Img/apple-touch-icon.png"
+    },
+    "computergraphics": {
+        "name": "Computer Graphics",
+        "site_url": "https://computergraphics.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/computergraphics/Img/apple-touch-icon.png"
+    },
+    "computergraphics.meta": {
+        "name": "Computer Graphics Meta",
+        "site_url": "https://computergraphics.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/computergraphicsmeta/Img/apple-touch-icon.png"
+    },
+    "hardwarerecs": {
+        "name": "Hardware Recommendations",
+        "site_url": "https://hardwarerecs.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/hardwarerecs/Img/apple-touch-icon.png"
+    },
+    "hardwarerecs.meta": {
+        "name": "Hardware Recommendations Meta",
+        "site_url": "https://hardwarerecs.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/hardwarerecsmeta/Img/apple-touch-icon.png"
+    },
+    "es.stackoverflow": {
+        "name": "Stack Overflow en espa&#241;ol",
+        "site_url": "https://es.stackoverflow.com",
+        "icon": "https://cdn.sstatic.net/Sites/es/Img/apple-touch-icon.png"
+    },
+    "es.meta.stackoverflow": {
+        "name": "Stack Overflow Meta en espa&#241;ol",
+        "site_url": "https://es.meta.stackoverflow.com",
+        "icon": "https://cdn.sstatic.net/Sites/esmeta/Img/apple-touch-icon.png"
+    },
+    "3dprinting": {
+        "name": "3D Printing",
+        "site_url": "https://3dprinting.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/3dprinting/Img/apple-touch-icon.png"
+    },
+    "3dprinting.meta": {
+        "name": "3D Printing Meta",
+        "site_url": "https://3dprinting.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/3dprintingmeta/Img/apple-touch-icon.png"
+    },
+    "ethereum": {
+        "name": "Ethereum",
+        "site_url": "https://ethereum.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/ethereum/Img/apple-touch-icon.png"
+    },
+    "ethereum.meta": {
+        "name": "Ethereum Meta",
+        "site_url": "https://ethereum.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/ethereummeta/Img/apple-touch-icon.png"
+    },
+    "latin": {
+        "name": "Latin Language",
+        "site_url": "https://latin.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/latin/Img/apple-touch-icon.png"
+    },
+    "latin.meta": {
+        "name": "Latin Language Meta",
+        "site_url": "https://latin.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/latinmeta/Img/apple-touch-icon.png"
+    },
+    "languagelearning": {
+        "name": "Language Learning",
+        "site_url": "https://languagelearning.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/languagelearning/Img/apple-touch-icon.png"
+    },
+    "languagelearning.meta": {
+        "name": "Language Learning Meta",
+        "site_url": "https://languagelearning.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/languagelearningmeta/Img/apple-touch-icon.png"
+    },
+    "retrocomputing": {
+        "name": "Retrocomputing",
+        "site_url": "https://retrocomputing.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/retrocomputing/Img/apple-touch-icon.png"
+    },
+    "retrocomputing.meta": {
+        "name": "Retrocomputing Meta",
+        "site_url": "https://retrocomputing.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/retrocomputingmeta/Img/apple-touch-icon.png"
+    },
+    "crafts": {
+        "name": "Arts &amp; Crafts",
+        "site_url": "https://crafts.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/crafts/Img/apple-touch-icon.png"
+    },
+    "crafts.meta": {
+        "name": "Arts &amp; Crafts Meta",
+        "site_url": "https://crafts.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/craftsmeta/Img/apple-touch-icon.png"
+    },
+    "korean": {
+        "name": "Korean Language",
+        "site_url": "https://korean.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/korean/Img/apple-touch-icon.png"
+    },
+    "korean.meta": {
+        "name": "Korean Language Meta",
+        "site_url": "https://korean.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/koreanmeta/Img/apple-touch-icon.png"
+    },
+    "monero": {
+        "name": "Monero",
+        "site_url": "https://monero.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/monero/Img/apple-touch-icon.png"
+    },
+    "monero.meta": {
+        "name": "Monero Meta",
+        "site_url": "https://monero.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/monerometa/Img/apple-touch-icon.png"
+    },
+    "ai": {
+        "name": "Artificial Intelligence",
+        "site_url": "https://ai.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/ai/Img/apple-touch-icon.png"
+    },
+    "ai.meta": {
+        "name": "Artificial Intelligence Meta",
+        "site_url": "https://ai.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/aimeta/Img/apple-touch-icon.png"
+    },
+    "esperanto": {
+        "name": "Esperanto Language",
+        "site_url": "https://esperanto.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/esperanto/Img/apple-touch-icon.png"
+    },
+    "esperanto.meta": {
+        "name": "Esperanto Language Meta",
+        "site_url": "https://esperanto.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/esperantometa/Img/apple-touch-icon.png"
+    },
+    "sitecore": {
+        "name": "Sitecore",
+        "site_url": "https://sitecore.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/sitecore/Img/apple-touch-icon.png"
+    },
+    "sitecore.meta": {
+        "name": "Sitecore Meta",
+        "site_url": "https://sitecore.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/sitecoremeta/Img/apple-touch-icon.png"
+    },
+    "iot": {
+        "name": "Internet of Things",
+        "site_url": "https://iot.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/iot/Img/apple-touch-icon.png"
+    },
+    "iot.meta": {
+        "name": "Internet of Things Meta",
+        "site_url": "https://iot.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/iotmeta/Img/apple-touch-icon.png"
+    },
+    "literature": {
+        "name": "Literature",
+        "site_url": "https://literature.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/literature/Img/apple-touch-icon.png"
+    },
+    "literature.meta": {
+        "name": "Literature Meta",
+        "site_url": "https://literature.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/literaturemeta/Img/apple-touch-icon.png"
+    },
+    "vegetarianism": {
+        "name": "Veganism &amp; Vegetarianism",
+        "site_url": "https://vegetarianism.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/vegetarianism/Img/apple-touch-icon.png"
+    },
+    "vegetarianism.meta": {
+        "name": "Veganism &amp; Vegetarianism Meta",
+        "site_url": "https://vegetarianism.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/vegetarianismmeta/Img/apple-touch-icon.png"
+    },
+    "ukrainian": {
+        "name": "Ukrainian Language",
+        "site_url": "https://ukrainian.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/ukrainian/Img/apple-touch-icon.png"
+    },
+    "ukrainian.meta": {
+        "name": "Ukrainian Language Meta",
+        "site_url": "https://ukrainian.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/ukrainianmeta/Img/apple-touch-icon.png"
+    },
+    "devops": {
+        "name": "DevOps",
+        "site_url": "https://devops.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/devops/Img/apple-touch-icon.png"
+    },
+    "devops.meta": {
+        "name": "DevOps Meta",
+        "site_url": "https://devops.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/devopsmeta/Img/apple-touch-icon.png"
+    },
+    "bioinformatics": {
+        "name": "Bioinformatics",
+        "site_url": "https://bioinformatics.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/bioinformatics/Img/apple-touch-icon.png"
+    },
+    "bioinformatics.meta": {
+        "name": "Bioinformatics Meta",
+        "site_url": "https://bioinformatics.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/bioinformaticsmeta/Img/apple-touch-icon.png"
+    },
+    "cseducators": {
+        "name": "Computer Science Educators",
+        "site_url": "https://cseducators.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/cseducators/Img/apple-touch-icon.png"
+    },
+    "cseducators.meta": {
+        "name": "Computer Science Educators Meta",
+        "site_url": "https://cseducators.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/cseducatorsmeta/Img/apple-touch-icon.png"
+    },
+    "interpersonal": {
+        "name": "Interpersonal Skills",
+        "site_url": "https://interpersonal.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/interpersonal/Img/apple-touch-icon.png"
+    },
+    "interpersonal.meta": {
+        "name": "Interpersonal Skills Meta",
+        "site_url": "https://interpersonal.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/interpersonalmeta/Img/apple-touch-icon.png"
+    },
+    "iota": {
+        "name": "Iota",
+        "site_url": "https://iota.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/iota/Img/apple-touch-icon.png"
+    },
+    "iota.meta": {
+        "name": "Iota Meta",
+        "site_url": "https://iota.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/iotameta/Img/apple-touch-icon.png"
+    },
+    "stellar": {
+        "name": "Stellar",
+        "site_url": "https://stellar.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/stellar/Img/apple-touch-icon.png"
+    },
+    "stellar.meta": {
+        "name": "Stellar Meta",
+        "site_url": "https://stellar.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/stellarmeta/Img/apple-touch-icon.png"
+    },
+    "conlang": {
+        "name": "Constructed Languages",
+        "site_url": "https://conlang.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/conlang/Img/apple-touch-icon.png"
+    },
+    "conlang.meta": {
+        "name": "Constructed Languages Meta",
+        "site_url": "https://conlang.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/conlangmeta/Img/apple-touch-icon.png"
+    },
+    "quantumcomputing": {
+        "name": "Quantum Computing",
+        "site_url": "https://quantumcomputing.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/quantumcomputing/Img/apple-touch-icon.png"
+    },
+    "quantumcomputing.meta": {
+        "name": "Quantum Computing Meta",
+        "site_url": "https://quantumcomputing.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/quantumcomputingmeta/Img/apple-touch-icon.png"
+    },
+    "eosio": {
+        "name": "EOS.IO",
+        "site_url": "https://eosio.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/eosio/Img/apple-touch-icon.png"
+    },
+    "eosio.meta": {
+        "name": "EOS.IO Meta",
+        "site_url": "https://eosio.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/eosiometa/Img/apple-touch-icon.png"
+    },
+    "tezos": {
+        "name": "Tezos",
+        "site_url": "https://tezos.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/tezos/Img/apple-touch-icon.png"
+    },
+    "tezos.meta": {
+        "name": "Tezos Meta",
+        "site_url": "https://tezos.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/tezosmeta/Img/apple-touch-icon.png"
+    },
+    "or": {
+        "name": "Operations Research",
+        "site_url": "https://or.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/or/Img/apple-touch-icon.png"
+    },
+    "or.meta": {
+        "name": "Operations Research Meta",
+        "site_url": "https://or.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/ormeta/Img/apple-touch-icon.png"
+    },
+    "drones": {
+        "name": "Drones and Model Aircraft",
+        "site_url": "https://drones.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/drones/Img/apple-touch-icon.png"
+    },
+    "drones.meta": {
+        "name": "Drones and Model Aircraft Meta",
+        "site_url": "https://drones.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/dronesmeta/Img/apple-touch-icon.png"
+    },
+    "mattermodeling": {
+        "name": "Matter Modeling",
+        "site_url": "https://mattermodeling.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/mattermodeling/Img/apple-touch-icon.png"
+    },
+    "mattermodeling.meta": {
+        "name": "Matter Modeling Meta",
+        "site_url": "https://mattermodeling.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/mattermodelingmeta/Img/apple-touch-icon.png"
+    },
+    "cardano": {
+        "name": "Cardano",
+        "site_url": "https://cardano.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/cardano/Img/apple-touch-icon.png"
+    },
+    "cardano.meta": {
+        "name": "Cardano Meta",
+        "site_url": "https://cardano.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/cardanometa/Img/apple-touch-icon.png"
+    },
+    "proofassistants": {
+        "name": "Proof Assistants",
+        "site_url": "https://proofassistants.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/proofassistants/Img/apple-touch-icon.png"
+    },
+    "proofassistants.meta": {
+        "name": "Proof Assistants Meta",
+        "site_url": "https://proofassistants.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/proofassistantsmeta/Img/apple-touch-icon.png"
+    },
+    "substrate": {
+        "name": "Substrate",
+        "site_url": "https://substrate.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/substrate/Img/apple-touch-icon.png"
+    },
+    "substrate.meta": {
+        "name": "Substrate Meta",
+        "site_url": "https://substrate.meta.stackexchange.com",
+        "icon": "https://cdn.sstatic.net/Sites/substratemeta/Img/apple-touch-icon.png"
+    }
+}

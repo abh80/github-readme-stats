@@ -6,5 +6,12 @@
         "text": "#fff",
         "secondary_text": "#ffffff80",
         "logo-file": "https://raw.githubusercontent.com/abh80/github-readme-stats/master/src/twitter/twitter-logo/Twitter%20logo/PNG/2021%20Twitter%20logo%20-%20white.png"
+    },
+    "stack_default": {
+        "border": "#f48225",
+        "background": "#2d2d2d",
+        "header_text": "#f9c294",
+        "text": "#fff",
+        "secondary_text": "#959ca3"
     }
 }
