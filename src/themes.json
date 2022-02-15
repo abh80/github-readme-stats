@@ -18,7 +18,7 @@
         "border": "#f48225",
         "background": "#2d2d2d",
         "header_text": "#f9c294",
-        "text": "#fff",
+        "text": "#000",
         "secondary_text": "#959ca3"
     }
 }
