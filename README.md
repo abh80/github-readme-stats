@@ -2,7 +2,7 @@
 
 
 # Preview
-<a href="https://twitter.com/TrackerStars"><img src="https://raw.githubusercontent.com/abh80/github-readme-stats/master/src/twitter/preview.svg"/></a>
+![image](https://user-images.githubusercontent.com/50198413/156910547-1f43891b-932e-4df8-ab27-b00d0eea19c5.png)
 
 # Usage
 There is a little complicacy in configuring the twitter stats as it has rate-limit, we cannot host one for everyone
