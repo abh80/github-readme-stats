@@ -1,3 +1,7 @@
+# Stack Exchange Stats for Github Readme
+- Firstly find the id of site from [this](https://github.com/abh80/github-readme-stats/blob/master/src/Utils/stackexchange.json) json file.
+- Paste this link in your github readme `<img src="https://github-readme-stats-abh80.vercel.app/stack-exchange?site=[site_id]&id=[user_id]&theme=stackoverflow"  height="200" width="400"/>`
+
 # Twitter Stats for Github readme
 
 
